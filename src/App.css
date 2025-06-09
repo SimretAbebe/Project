@@ -1,0 +1,205 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #fff;
+  color: #111;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.navbar .logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.navbar nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color:#007bff;
+}
+
+.dark-mode {
+  background-color: #111;
+  color: #fff;
+}
+
+.dark-mode .project-card {
+  background: #222;
+  color: #eee;
+}
+
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 40px;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-text h1 {
+  font-size: 3.8em;
+}
+
+#theme-toggle {
+  color: #007bff;
+  margin-right: 130px;
+}
+#theme-toggle:hover{
+  color: white;
+}
+.hero-text span {
+  color: #007acc;
+}
+
+.hero-img {
+  flex: 0;
+}
+
+.hero-img img {
+  width: 400px;         /* Square width */
+  height: 400px;        /* Square height to keep it square */
+  border-radius: 15px;  /* Curved corners */
+  object-fit: cover;    /* Prevents image distortion */
+}
+
+
+
+.about-section {
+  padding: 80px 40px;
+  background-color: #f5f7fa;
+  color: #333;
+  text-align: center;
+}
+
+.about-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  font-size: 1.2em;
+  max-width: 600px;
+  margin: 0 auto 30px;
+}
+
+.skills {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+span{
+  color: #007acc;
+
+}
+
+.skills li {
+  background: #007acc;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+/* Projects Section */
+.projects-section {
+  background-color: #f8f9fa;
+  padding: 80px 40px;
+  text-align: center;
+}
+
+.projects-section h2 {
+  font-size: 2.5em;
+  color: #222;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.project-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.project-card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+  width: 300px;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+.project-card h3 {
+  font-size: 1.4em;
+  color: #007acc;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  font-size: 1em;
+  color: #444;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.contact-section {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 2em;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.contact-info p {
+  font-size: 1.1em;
+  margin: 10px 0;
+  color: #333;
+}
+
+.contact-info a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+  color: #0056b3;
+}
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column; /* stack image and text */
+    text-align: center;
+  }
+
+  .hero-img img {
+    width: 200px;
+    height: 200px;
+  }
+
+  #theme-toggle {
+    margin: 20px 0 0 0; /* space for the button */
+  }
+}
