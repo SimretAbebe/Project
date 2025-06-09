@@ -1,12 +1,38 @@
-# React + Vite
+# Simret Abebe — Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal developer portfolio!  
+This website is a simple yet thoughtful representation of my journey as a web developer and Computer Science student.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 👩‍💻 About Me
+
+Hi, I'm **Simret Abebe**, a second-year Computer Science student at **Bahir Dar University** with a passion for full-stack web development.  
+I enjoy building responsive, user-friendly websites and continuously expanding my knowledge in modern web technologies.
+
+---
+
+## ✨ Features
+
+- ✍️ Clean and minimal design
+- 💻 Fully responsive layout
+- 🌓 Light / Dark Mode toggle
+- 📂 Project showcase and contact links
+- ⚡ Built with Vite + React for fast development experience
+
+---
+
+## 🛠 Tech Stack
+
+- **Framework**: [React](https://reactjs.org/)
+- **Bundler**: [Vite](https://vitejs.dev/)
+- **Styling**: CSS 
+- **Version Control**: Git & GitHub
+
+---
+
+## At this project I show my skills in small way . I belive I will come back with better project and portifolio to show my skills
+
+
