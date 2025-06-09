@@ -33,6 +33,6 @@ I enjoy building responsive, user-friendly websites and continuously expanding m
 
 ---
 
-## At this project I show my skills in small way . I belive I will come back with better project and portifolio to show my skills
+## At this project I show my skills in small way . I belive I will come back with better project and portifolio to show my skills !!
 
 
